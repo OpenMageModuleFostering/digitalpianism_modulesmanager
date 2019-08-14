@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<package>
+    <name>DigitalPianism_ModulesManager</name>
+    <version>0.3.0</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">OSL v3.0</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>This module will let you access details about the modules installed on your Magento store.</summary>
+    <description>&lt;h2&gt;Description&lt;/h2&gt;&#xD;
+&lt;p&gt;This module is based on &lt;a href="http://alanstorm.com/magento_list_module"&gt;Alan Storm's Module List module&lt;/a&gt;. The main difference is that it adds an extra more information about the modules to help people debugging their modules. It also uses a grid that could help for filtering/searching modules.&lt;/p&gt;&#xD;
+&#xD;
+&lt;h2&gt;Modules Manager&lt;/h2&gt;&#xD;
+&#xD;
+&lt;p&gt;You can access the grid by clicking System &gt; Tools &gt; Modules Details. In this grid, you can find the following information about modules:&lt;/p&gt;&#xD;
+&#xD;
+&lt;ul&gt;&#xD;
+&lt;li&gt;Name of the module&lt;/li&gt;&#xD;
+&lt;li&gt;Active: based on the app/etc/modules configuration file.&lt;/li&gt;&#xD;
+&lt;li&gt;Code Pool&lt;/li&gt;&#xD;
+&lt;li&gt;Version: this is the version of the module as declared in the etc/config.xml file&lt;/li&gt;&#xD;
+&lt;li&gt;Folder path to the module files&lt;/li&gt;&#xD;
+&lt;li&gt;Whether or not the folder path exists&lt;/li&gt;&#xD;
+&lt;li&gt;Data entry: if the module interacts with the database, this will list the entry of the module under the core_resource table&lt;/li&gt;&#xD;
+&lt;li&gt;Data version: this is the data version of your module, understand the data installed via data install/upgrade scripts&lt;/li&gt;&#xD;
+&lt;li&gt;Output enable: wheter or not the output is disabled under System &gt; Configuration &gt; Advanced&lt;/li&gt;&#xD;
+&lt;li&gt;Path to the config file&lt;/li&gt;&#xD;
+&lt;li&gt;Whether or not the config file exists&lt;/li&gt;&#xD;
+&lt;/ul&gt;&#xD;
+&#xD;
+&lt;p&gt;This grid should give you a quick overview of your modules and help you finding out problems while installing/developping a module&lt;/p&gt;&#xD;
+&lt;p&gt;In addition, you can also use our &lt;a href="http://www.digital-pianism.com/en/magento-modules/error-reports-viewer.html"&gt;Reports Viewer&lt;/a&gt; module to view the Magento generated reports easily&lt;/p&gt;</description>
+    <notes>- Original release</notes>
+    <authors><author><name>Digital Pianism</name><user>digitalpianism</user><email>contact@digital-pianism.com</email></author></authors>
+    <date>2016-01-06</date>
+    <time>16:53:23</time>
+    <contents><target name="magecommunity"><dir name="DigitalPianism"><dir name="ModulesManager"><dir name="Block"><dir name="Adminhtml"><dir name="Modulesmanager"><file name="Grid.php" hash="93a05492d6cd807198ea76f7850d46f7"/></dir><file name="Modulesmanager.php" hash="dab1b9fde93f930173ddb52c21b6e27f"/><dir name="Template"><dir name="Grid"><dir name="Renderer"><file name="CodePool.php" hash="0a7f2f1a16e779560b46e833283bf316"/><file name="ConfigFileExists.php" hash="df2c23b3866a4e55d4554d0c73a1a65a"/><file name="DataEntry.php" hash="627d053695f48360059e59401aee82c9"/><file name="DataVersion.php" hash="bff0b6dcca7eaeba55957bb1bd11e380"/><file name="FileEnable.php" hash="92ae35f0c2bb881f6b4dafde6cbdef5f"/><file name="FolderPathExists.php" hash="13aa662efaabc4826f50412ab0f8ad6d"/><file name="OutputEnable.php" hash="b943b598fabbcff3a2fdc97a2e295e62"/><file name="Version.php" hash="2d50ca4e69a72e18e0a29603aed9fb55"/></dir></dir></dir></dir></dir><dir name="Helper"><file name="Data.php" hash="8a75a26b67acf4307d64c9a8def68dc7"/></dir><dir name="Model"><file name="Feed.php" hash="6109967c56e7a9a5218231a3b8b865e1"/></dir><dir name="Test"><dir name="Config"><file name="Main.php" hash="4d34af1730d7bcd25cd20672efd031fe"/></dir></dir><dir name="controllers"><dir name="Adminhtml"><file name="ModulesmanagerController.php" hash="fb029a68dd7a0dfa08362eb337c99342"/></dir></dir><dir name="etc"><file name="adminhtml.xml" hash="6ff14bc193f36129608a84de7a2db6d6"/><file name="config.xml" hash="fd2594038fda51a7bc8693af988493c7"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="DigitalPianism_ModulesManager.xml" hash="c9498ee1ce38bfc03c45ff585243c5fb"/></dir></target><target name="mageskin"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="css"><dir name="digitalpianism"><dir name="modulesmanager"><file name="styles.css" hash="0c96f305e8cfc02281436d83d54f4aa6"/></dir></dir></dir><dir name="js"><dir name="digitalpianism"><dir name="modulesmanager"><file name="script.js" hash="e753856406dccef91d14c74052089183"/></dir></dir></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>4.1.0</min><max>6.0.0</max></php></required></dependencies>
+</package>

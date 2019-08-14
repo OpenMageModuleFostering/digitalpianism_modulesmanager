@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/DigitalPianism_ModulesManager",
+    "type": "magento-module",
+    "license": "OSL-v3.0",
+    "homepage": "",
+    "description": "This module will let you access details about the modules installed on your Magento store.",
+    "authors": [
+    {
+        "name": "Digital Pianism",
+        "email": "contact@digital-pianism.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}
